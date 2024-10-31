@@ -8,3 +8,9 @@ str.split(' ', 1) // it splits like ['sai'] //1 is we want only one element in a
 str.split('') //it splits by every character and puts in an array
 str.split(' ').join('-') // output is sai-harshitha
 
+let message = 'The day is blue. Grass is green! do you know the color of grass';
+message.split(); // it outputs like ['Yes, You can do it']
+we can do array destructing
+
+const [firstName, lastName] = str.split(' '); // firstName is sai lastName is harshitha
+
